@@ -1,0 +1,53 @@
+.background {
+  viewport-fill: #000000;
+}
+
+#timeLabel {
+  font-size: 96;
+  font-family: Colfax-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 53%;
+  fill: white;
+}
+
+#dayLabel {
+  font-size: 27;
+  font-family: Colfax-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 54%+40;
+  fill: white;
+}
+
+#goalLabel {
+  font-size: 37;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 26%;
+  y: 30%;
+  fill: white;
+}
+
+#bpmLabel {
+  font-size: 37;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 26%;
+  y: 80%;
+  fill: white;
+}
+
+#batteryText {
+  font-size: 24;
+  font-family: Colfax-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 81%;
+  y: 95%;
+  fill: white;
+}

@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "7da49d2c-d68b-4bcb-91cf-0b22bc1c5fae",
+    "appType": "clockface",
+    "appDisplayName": "MetroDuo",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "MetroDuo"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}
